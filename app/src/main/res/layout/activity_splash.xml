@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgSplashSpider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/splash_spider"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_spider"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgMarvelLogo"
+        android:layout_width="@dimen/dim_300_dp"
+        android:layout_height="@dimen/dim_100_dp"
+        android:layout_marginStart="580dp"
+        android:contentDescription="@string/logo_marvel"
+        app:layout_constraintEnd_toStartOf="@+id/imgSplashSpider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/marvel_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
