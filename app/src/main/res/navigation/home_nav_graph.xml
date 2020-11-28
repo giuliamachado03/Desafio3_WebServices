@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/home_nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/comicsListFragment2">
 
+    <fragment
+        android:id="@+id/comicsListFragment2"
+        android:name="com.example.desafio3.ComicsListFragment"
+        android:label="fragment_comics_list"
+        tools:layout="@layout/fragment_comics_list" />
 </navigation>

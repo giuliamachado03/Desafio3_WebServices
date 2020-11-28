@@ -6,6 +6,6 @@ import android.os.Bundle
 class HomeAvtivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home_avtivity)
+        setContentView(R.layout.activity_home)
     }
 }
