@@ -3,4 +3,7 @@
     <dimen name="dim_300_dp">300dp</dimen>
     <dimen name="dim_121_dp">121dp</dimen>
     <dimen name="dim_100_dp">100dp</dimen>
+    <dimen name="dim_400_dp">400dp</dimen>
+    <dimen name="dim_350_dp">350dp</dimen>
+    <dimen name="dim_160_dp">160dp</dimen>
 </resources>
