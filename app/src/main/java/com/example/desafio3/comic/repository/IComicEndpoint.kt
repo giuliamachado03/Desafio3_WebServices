@@ -1,6 +1,6 @@
 package com.example.desafio3.comic.repository
 
-import com.example.desafio3.comic.ComicModel
+import com.example.desafio3.comic.model.ComicModel
 import com.example.desafio3.data.api.api.NetworkUtils
 import com.example.desafio3.data.api.model.ResponseModel
 import retrofit2.http.GET
