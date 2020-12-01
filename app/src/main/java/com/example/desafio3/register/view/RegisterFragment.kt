@@ -1,4 +1,4 @@
-package com.example.desafio3
+package com.example.desafio3.register.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.Navigation
+import com.example.desafio3.R
 
 class RegisterFragment : Fragment() {
 

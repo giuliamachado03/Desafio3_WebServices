@@ -1,5 +1,6 @@
-package com.example.desafio3.api
+package com.example.desafio3.data.api
 
+import android.util.Log
 import okhttp3.Interceptor
 import okhttp3.Response
 import java.math.BigInteger
@@ -22,8 +23,18 @@ class NetworkInterceptor : Interceptor {
 
         val requestBuilder = request.newBuilder().url(url)
         request = requestBuilder.build()
-        return chain.proceed(request)
-    }
+
+
+        var response = chain.proceed(request)
+        var tryCount = 0
+        while (!response.isSuccessful && tryCount < 3) {
+            Log.d("intercept", "Request is not successful - $tryCount")
+            tryCount++
+            response = chain.proceed(request)
+        }
+        return response
+
+        }
 
     private fun getHash(ts: String) = "${ts}$PRIVATE_KEY$PUBLIC_KEY".md5
 

@@ -1,4 +1,4 @@
-package com.example.desafio3.api
+package com.example.desafio3.data.api
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.desafio3.WelcomeFragment"
+        android:name="com.example.desafio3.login.view.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.desafio3.RegisterFragment"
+        android:name="com.example.desafio3.register.view.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/comicsListFragment"
-        android:name="com.example.desafio3.ComicsListFragment"
+        android:name="com.example.desafio3.comic.ComicListFragment"
         android:label="fragment_comics_list"
         tools:layout="@layout/fragment_comics_list" />
 </navigation>
