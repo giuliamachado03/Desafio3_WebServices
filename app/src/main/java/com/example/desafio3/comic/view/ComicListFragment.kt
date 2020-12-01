@@ -1,4 +1,4 @@
-package com.example.desafio3.comic
+package com.example.desafio3.comic.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

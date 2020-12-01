@@ -3,6 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".comic.ComicFragment">
+    tools:context=".comic.view.ComicFragment">
 
 </ScrollView>

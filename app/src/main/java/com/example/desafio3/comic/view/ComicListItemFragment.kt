@@ -1,4 +1,4 @@
-package com.example.desafio3.comic
+package com.example.desafio3.comic.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,15 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.desafio3.R
 
-class ComicFragment : Fragment() {
-
+class ComicListItemFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_comic, container, false)
+        return inflater.inflate(R.layout.fragment_comics_list_item, container, false)
     }
+
 
 }

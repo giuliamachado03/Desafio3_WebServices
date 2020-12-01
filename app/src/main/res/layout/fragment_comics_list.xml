@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".comic.ComicListFragment"
+    tools:context=".comic.view.ComicListFragment"
     android:background="@color/backgroundFund">
 
     <androidx.appcompat.widget.Toolbar
