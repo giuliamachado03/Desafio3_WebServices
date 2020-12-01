@@ -41,5 +41,14 @@
         android:id="@+id/comicFragment"
         android:name="com.example.desafio3.comic.view.ComicFragment"
         android:label="fragment_comic"
-        tools:layout="@layout/fragment_comic" />
+        tools:layout="@layout/fragment_comic" >
+        <action
+            android:id="@+id/action_comicFragment_to_imageDetailFragment"
+            app:destination="@id/imageDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageDetailFragment"
+        android:name="com.example.desafio3.comic.view.ImageDetailFragment"
+        android:label="fragment_image_detail"
+        tools:layout="@layout/fragment_image_detail" />
 </navigation>

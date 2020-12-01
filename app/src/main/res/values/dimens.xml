@@ -6,4 +6,7 @@
     <dimen name="dim_400_dp">400dp</dimen>
     <dimen name="dim_350_dp">350dp</dimen>
     <dimen name="dim_160_dp">160dp</dimen>
+    <dimen name="dim_10_dp">10dp</dimen>
+    <dimen name="dim_20_dp">20dp</dimen>
+    <dimen name="dim_16_sp">16sp</dimen>
 </resources>

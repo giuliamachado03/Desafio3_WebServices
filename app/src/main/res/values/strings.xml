@@ -15,4 +15,10 @@
     <string name="save">Save</string>
     <string name="register">Register</string>
     <string name="comic_image">Comic image</string>
+    <string name="comic_landscape">Comic Landscape</string>
+    <string name="image_comic">Imagem Hq</string>
+    <string name="published">Published</string>
+    <string name="price">Price</string>
+    <string name="pages">Pages</string>
+    <string name="back">Back</string>
 </resources>
