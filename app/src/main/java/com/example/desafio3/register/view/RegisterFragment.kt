@@ -26,7 +26,7 @@ class RegisterFragment : Fragment() {
         val navController = Navigation.findNavController(view)
 
         view.findViewById<Button>(R.id.containedButtonSave).setOnClickListener {
-            navController.navigate(R.id.containedButtonLogIn)
+            navController.navigate(R.id.welcomeFragment)
         }
 
 

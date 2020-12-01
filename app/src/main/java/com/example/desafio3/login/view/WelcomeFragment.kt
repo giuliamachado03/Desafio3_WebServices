@@ -30,36 +30,9 @@ class WelcomeFragment : Fragment() {
             navController.navigate(R.id.registerFragment)
         }
 
-        view.findViewById<Button>(R.id.textButtonCreateAccount).setOnClickListener {
-
-            val email = view.findViewById<TextInputLayout>(R.id.textFieldEmail)
-            val password = view.findViewById<TextInputLayout>(R.id.textFieldPassword)
-
-            val verificacao = verificarCampos(email, password)
-
-            if (verificacao) {
-                navController.navigate(R.id.action_welcomeFragment_to_comicsListFragment)
-            }
-        }
-    }
-
-
-    private fun verificarCampos(email: TextInputLayout?, pass: TextInputLayout?): Boolean {
-        var auxiliar = mutableListOf<Boolean>(false, false)
-
-        if (email?.editText?.text.toString() != "") auxiliar[0] = true
-        if (email?.editText?.text.toString() != "") auxiliar[1] = true
-
-        if (!auxiliar[0]) {
-            email?.error = "O campo e-mail não pode estar vazio"
-        }
-        if (!auxiliar[1]) {
-            pass?.error = "O campo senha não pode estar vazio"
+        view.findViewById<Button>(R.id.containedButtonLogIn).setOnClickListener {
+            navController.navigate(R.id.comicsListFragment)
         }
 
-        if (auxiliar[0] && auxiliar[1]) {
-            return true
-        }
-        return false
     }
 }
