@@ -1,5 +1,6 @@
 package com.example.desafio3.login.view
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,12 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import com.example.desafio3.R
+import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
 
 class WelcomeFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,5 +36,7 @@ class WelcomeFragment : Fragment() {
             navController.navigate(R.id.comicsListFragment)
         }
 
+    }
+    companion object {
     }
 }
