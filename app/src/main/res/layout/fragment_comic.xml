@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/imgLandscape"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="@dimen/dim_250_dp"
             android:contentDescription="@string/comic_landscape"
             android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="parent"
@@ -25,12 +25,12 @@
 
         <ImageView
             android:id="@+id/imgComicCover"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/dim_150_dp"
+            android:layout_height="@dimen/dim_200_dp"
+            android:layout_margin="@dimen/dim_10_dp"
             android:background="@color/colorWhite"
             android:contentDescription="@string/image_comic"
-            android:padding="5dp"
+            android:padding="@dimen/dim_5_dp"
             android:scaleType="fitXY"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/comicToolbar"
@@ -39,12 +39,12 @@
             android:id="@+id/txtTitleComic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="@dimen/dim_20_sp"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textStyle="bold"
             android:textColor="@color/colorWhite"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/dim_10_dp"
             tools:text="AMAZING SPIDER-MAN VOL. 2 HC (Hardcover)"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +60,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:textColor="@color/colorWhite"
-            android:textSize="16sp"
+            android:textSize="@dimen/dim_16_sp"
             tools:text="The Greatest Super Hero of All Time RETURNS! The world may have changed since Spidey's been gone, but so has Peter Parker. This is a man with a second chance at life, and he's not wasting a moment of it. Same Parker Luck, new Parker attitude. Putting the friendly back in the neighborhood, the hero back into super hero, and the amazing back into Spider-Man! Also returning: The recharged and reenergized ELECTRO!"
             />
         <TextView
@@ -73,7 +73,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:text="@string/published"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:textSize="@dimen/dim_16_sp"
             android:textColor="@color/colorWhite"
             />
         <TextView
@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/back"
                     android:src="@drawable/ic_baseline_arrow_back_24"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/dim_5_dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"

@@ -22,7 +22,7 @@
     <ImageView
         android:id="@+id/imgMarvelLogo"
         android:layout_width="@dimen/dim_100_dp"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/dim_50_dp"
         android:layout_marginStart="10dp"
         android:contentDescription="@string/logo_marvel"
         android:src="@drawable/marvel_logo"
@@ -31,14 +31,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/dim_0_dp"
+        android:layout_marginTop="@dimen/dim_10_dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbarComicList"
-        android:layout_marginHorizontal="10dp"
-        app:layout_goneMarginTop="10dp">
+        android:layout_marginHorizontal="@dimen/dim_10_dp"
+        app:layout_goneMarginTop="@dimen/dim_10_dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewComics"

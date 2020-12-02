@@ -24,4 +24,3 @@ class ImageDetailFragment : Fragment() {
         return view
     }
 }
-   

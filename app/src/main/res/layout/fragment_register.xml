@@ -19,10 +19,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="@dimen/dim_20_dp"
+        android:layout_height="@dimen/dim_20_dp"
+        android:layout_marginStart="@dimen/dim_10_dp"
+        android:layout_marginTop="@dimen/dim_20_dp"
         android:background="@drawable/ic_baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,11 +31,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/dim_60_dp"
+        android:layout_marginTop="@dimen/dim_16_dp"
         android:text="@string/register"
         android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+        android:textSize="@dimen/dim_20_sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toobarRegister" />
@@ -44,7 +44,7 @@
         android:id="@+id/viewShape"
         android:layout_width="@dimen/dim_350_dp"
         android:layout_height="@dimen/dim_300_dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="@dimen/dim_130_dp"
         android:background="@drawable/circle_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,15 +55,15 @@
         android:id="@+id/viewIcon"
         android:layout_width="@dimen/dim_100_dp"
         android:layout_height="@dimen/dim_100_dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="@dimen/dim_100_dp"
         android:background="@drawable/icon_perfil_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <View
-        android:layout_width="77dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="@dimen/dim_77_dp"
+        android:layout_height="@dimen/dim_66_dp"
+        android:layout_marginTop="@dimen/dim_12_dp"
         android:background="@drawable/avatar"
         app:layout_constraintEnd_toEndOf="@+id/viewIcon"
         app:layout_constraintHorizontal_bias="0.932"
@@ -74,8 +74,8 @@
         android:id="@+id/cardViewWelcome"
         android:layout_width="@dimen/dim_350_dp"
         android:layout_height="@dimen/dim_300_dp"
-        android:layout_marginTop="60dp"
-        app:cardCornerRadius="15dp"
+        android:layout_marginTop="@dimen/dim_60_dp"
+        app:cardCornerRadius="@dimen/dim_15_dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp">
+            android:padding="@dimen/dim_10_dp">
 
 
             <com.google.android.material.textfield.TextInputLayout
@@ -150,7 +150,7 @@
                 android:id="@+id/containedButtonSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/dim_20_dp"
                 android:text="@string/save"
                 android:backgroundTint="@color/colorPrimaryDark"
                 app:layout_constraintEnd_toEndOf="parent"

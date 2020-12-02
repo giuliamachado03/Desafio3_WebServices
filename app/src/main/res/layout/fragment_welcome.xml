@@ -12,7 +12,7 @@
         android:id="@+id/viewShape"
         android:layout_width="@dimen/dim_350_dp"
         android:layout_height="@dimen/dim_300_dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="@dimen/dim_130_dp"
         android:background="@drawable/circle_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +21,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="@dimen/dim_40_dp"
         android:text="@string/welcome_title"
         android:textColor="@color/colorWhite"
-        android:textSize="26sp"
+        android:textSize="@dimen/dim_26_sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardViewWelcome"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,8 +36,8 @@
         android:id="@+id/cardViewWelcome"
         android:layout_width="@dimen/dim_350_dp"
         android:layout_height="@dimen/dim_300_dp"
-        android:layout_marginTop="60dp"
-        app:cardCornerRadius="15dp"
+        android:layout_marginTop="@dimen/dim_60_dp"
+        app:cardCornerRadius="@dimen/dim_15_dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp">
+            android:padding="@dimen/dim_10_dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textFieldEmailLogin"
@@ -98,7 +98,7 @@
                 android:id="@+id/containedButtonLogIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/dim_20_dp"
                 android:text="@string/log_in"
                 android:backgroundTint="@color/colorPrimaryDark"
                 app:layout_constraintEnd_toEndOf="parent"

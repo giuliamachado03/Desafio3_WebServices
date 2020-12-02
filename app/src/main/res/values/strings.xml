@@ -22,4 +22,5 @@
     <string name="pages">Pages</string>
     <string name="back">Back</string>
     <string name="detail_comic">Detail Comic</string>
+    <string name="icon_close">Icon close</string>
 </resources>
